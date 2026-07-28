@@ -4,29 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi primera tarea</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #3b3a3a;
-            text-align: center;
-            padding: 50px;
-        }
-        .card {
-            background: rgb(248, 248, 248);
-            padding: 20px;
-            border-radius: 10px;
-            display: inline-block;
-            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-        }
-        img {
-            width: 420px;
-        }
-        a {
-            text-decoration: none;
-            color: #0077b6;
-            margin: 0 20px;
-        }
-    </style>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="card">
@@ -34,25 +12,62 @@
         <h1>WALLY PALMERAS</h1>
         <p>Desarrollar un sitio web donde los usuarios puedan reservar de manera online y a la ves se pueda hacer difusión.</p>
         <p>donde se ofrece los servios de WALLY y MINI-FUTBOL y los horarios de atencion.</p>
+        <nav>
+            <ul>
+                <li><a href="#nosotros">Nosotros</a></li>
+                <li><a href="#instalaciones">Instalaciones y Servicios</a></li>
+                <li><a href="#reservas">Reservas</a></li>
+                <li><a href="#contacto">Contacto y Ubicación</a></li>
+            </ul>
+        </nav>
         <main>
-            <section id="inicio">
-            <h2>Bienvenidos al Complejo</h2>
-            <p>Ofrecemos las mejores instalaciones de la ciudad para la práctica de wally y mini fútbol. Contamos con ambientes techados, excelente iluminación LED y un área de refrigerio para después de tus partidos.</p>
+
+        <!-- Sección: Nosotros -->
+        <section id="nosotros">
+            <h2>Sobre el Campo Deportivo Wally Palmeras</h2>
+            <p>Somos un espacio pensado para amantes del deporte y la actividad física. Ofrecemos instalaciones de calidad para partidos informales, entrenamientos, campeonatos locales y eventos corporativos o familiares.</p>
         </section>
-            <section id="servicios">
-            <h2>Nuestras Instalaciones</h2>
-            
+
+        <!-- Sección: Instalaciones y Servicios -->
+        <section id="instalaciones">
+            <h2>Nuestras Instalaciones y Servicios</h2>
+
             <article>
-                <h3>Canchas de Wally</h3>
-                <p>Tres canchas oficiales con paredes alfombradas de alta densidad para un rebote perfecto. Redes regulables y balones profesionales incluidos en el alquiler.</p>
+                <h3>Alquiler de Canchas</h3>
+                <p>Canchas equipadas con excelente iluminación nocturna y césped/superficie en óptimas condiciones para la práctica deportiva.</p>
             </article>
 
             <article>
-                <h3>Canchas de Mini Fútbol</h3>
-                <p>Cancha reulizada del wally.</p>
+                <h3>Organización de Torneos</h3>
+                <p>Coordinación completa de campeonatos para empresas, amigos o ligas locales con arbitraje y cronograma oficial.</p>
+            </article>
+
+            <article>
+                <h3>Área de Vestuarios y Cafetería</h3>
+                <p>Ambientes cómodos con duchas y vestuarios, además de una zona de refrigerio para compartir después de cada partido.</p>
             </article>
         </section>
-        </main>
+
+        <!-- Sección: Reservas -->
+        <section id="reservas">
+            <h2>Reservas y Horarios</h2>
+            <p>Atendemos de <strong>Lunes a Domingo de 15:00 a 23:00 hrs</strong>.</p>
+            <p>Para asegurar tu cancha, te recomendamos realizar tu reserva con anticipación mediante nuestros canales directos de contacto.</p>
+        </section>
+
+        <!-- Sección: Contacto -->
+        <section id="contacto">
+            <h2>Contacto y Ubicación</h2>
+            <p>¿Tienes dudas o quieres coordinar un evento? ¡Comunícate con nosotros!</p>
+            
+            <ul>
+                <li><strong>Teléfono / WhatsApp:</strong> +591 68006968</li>
+                <li><strong>Dirección:</strong> Avenida Principal, Zona PALMERAS</li>
+                <li><strong>Correo electrónico:</strong> wallypalmeras@gmail.com</li>
+            </ul>
+        </section>
+
+    </main>
         <div>
             <a href="#">WhatssApp</a>
             <a href="#">Facebook</a>
