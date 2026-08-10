@@ -401,3 +401,79 @@ footer a:hover {
         padding:15px;
     }
 }
+body.claro {
+  background-color: #f4f7f2;
+  color: #1b2a1e;
+}
+
+body.claro header {
+  background-color: #1b5e20;
+  color: #ffffff;
+}
+
+body.claro header p {
+  color: #d9ead9;
+}
+
+body.claro nav {
+  background-color: #2e7d32;
+}
+
+body.claro nav a {
+  color: #ffffff;
+}
+
+body.claro .hamburguesa {
+  background-color: #2e7d32;
+  color: #ffffff;
+  border-color: #1b5e20;
+}
+
+body.claro .tarjeta {
+  background-color: #ffffff;
+  border-color: #cfe0d1;
+}
+
+body.claro .tarjeta h2 {
+  color: #1b5e20;
+}
+
+body.claro article {
+  background-color: #fff4e8;
+}
+
+body.claro article h3 {
+  color: #b35b12;
+}
+
+body.claro form label {
+  color: #33513a;
+}
+
+body.claro form input,
+body.claro form textarea {
+  background-color: #ffffff;
+  border-color: #cfe0d1;
+  color: #1b2a1e;
+}
+
+body.claro form input::placeholder,
+body.claro form textarea::placeholder {
+  color: #5f7562;
+}
+
+body.claro footer {
+  background-color: #1b5e20;
+  color: #e3f0e4;
+}
+body.claro .aviso.error {
+  background-color: #ffe6e6;
+  color: #8a1c1c;
+  border-left-color: #d13b3b;
+}
+
+body.claro .aviso.exito {
+  background-color: #e6f6ea;
+  color: #1b5e20;
+  border-left-color: #2e7d32;
+}
