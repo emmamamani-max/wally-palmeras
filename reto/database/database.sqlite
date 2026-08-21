@@ -1,0 +1,14 @@
+CREATE TABLE reservas (
+    id_reserva INT AUTO_INCREMENT PRIMARY KEY,
+    id_cliente INT NOT NULL,
+    fecha DATE NOT NULL,
+    hora_inicio TIME NOT NULL,
+    hora_fin TIME NOT NULL,
+    estado ENUM('pendiente','confirmada','cancelada','finalizada')
+        DEFAULT 'pendiente',
+    observaciones TEXT,
+    fecha_registro DATETIME DEFAULT CURRENT_TIMESTAMP,
+
+    FOREIGN KEY (id_cliente)
+        REFERENCES clientes(id_cliente)
+);

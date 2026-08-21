@@ -1,0 +1,13 @@
+DESPLIEGUE RÁPIDO EN LARAGON
+1. Extrae wally-palmeras.zip en C:\laragon\www\
+2. Abre Terminal desde Laragon.
+3. cd C:\laragon\www\wally-palmeras
+4. composer install
+5. copia .env.example a .env
+6. php artisan key:generate
+7. php artisan serve
+8. Opera/Chrome: http://localhost:8000
+
+PRÁCTICA PHP DIRECTA:
+C:\laragon\www\wally-palmeras\php-practica
+Puede servirse desde Apache de Laragon según la configuración del entorno.
